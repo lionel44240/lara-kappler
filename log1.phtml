@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=CormorantUpright" rel="stylesheet">
+	<meta charset="utf-8">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+	</script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous">
+	</script>
+	<script type="text/javascript" src='lara.js'>
+	</script>
+	<title> lara kappeler osteopathie vendee le Bernard </title>
+</head>
+<body>
+	<header>
+		<?php if (isset($_SESSION['pseudo'])) {
+			echo "bonjour ". $_SESSION['pseudo'];
+		} ?>
+		<nav class="headernav">
+			<a href="index.phtml"><h2>Lara Kappeler Ostéopathe D.O</h2></a>
+<!-- 			<a href="index.html"><img src="img/logo-lara-osteopathe-dom-od.jpg" class="logo" alt="logo"></a>
+-->			<ul class="nav nav-pills " id="nav_bar">
+	<li class="nav-item">
+		<a class="nav-link " href="index.phtml">Accueil</a>
+	</li>
+	<li class="nav-item ">
+		<a class="nav-link bg-transparent " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">L'ostéopathie </a>
+		<div class="dropdown-menu">
+			<a class="dropdown-item" href="#">Qu'est ce que l'ostéopathie ?</a>
+			<a class="dropdown-item" href="#">Pour qui ?</a>
+			<a class="dropdown-item" href="#">Quand ?</a>
+		</div>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" href="#">Présentation</a>
+	</li>
+	<li class="nav-item ">
+		<a class="nav-link bg-transparent " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Infos pratiques</a>
+		<div class="dropdown-menu">
+			<a class="dropdown-item" href="#">La Consultation</a>
+			<a class="dropdown-item" href="#">Les Honoraires</a>
+			<a class="dropdown-item" href="#">Le cabinet</a>
+			<a class="dropdown-item" href="newslater.php">nouveauté</a>
+		</div>
+	</li>
+</ul>
+</nav>
+<li class="trait"></li>
+</header>
+<main>
+	<div class="img">
+		<section >
+			<article class="centrale">
+				<?php  
+				if (!isset($_SESSION)) : ?>
+					<p>connexion</p>
+					<form method="post" action="log1.php" class="formlog">
+						<p>
+							<input type="text" name="pseudo" id="pseudo" placeholder="login" />
+							<br />
+							<input type="password" name="password" id="password" placeholder="password" />
+							<br />
+							<button type="submit">connecter</button>
+						</p>
+					</form>
+					<?php else : ?>
+						<p>vous etes deja connecter !! </p>
+				<?php endif ?>
+			</article>
+		</section>
+	</div>
+	
+</main>
+<div>
+	<section>
+		<?php if(isset($_SESSION) && isset($_SESSION['pseudo']) ) : ?>
+		<a href="log1.php" class="log1"><button>admin</button></a>
+		<form method="post" action="log1.php?action=deconnexion" name="deconnexion">
+			<button>deconnexion</button>
+		</form>
+		<a href="laraPost.php"><button>page de controle</button></a>
+	<?php endif; ?>
+</section>
+</div>
+</body>
+
+</html>
