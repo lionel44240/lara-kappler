@@ -1,0 +1,343 @@
+/*generale mobile first*/
+
+	* {
+		box-sizing: border-box;
+		outline: none;
+		font-size: 1.05em;
+		color: rgba(51, 51, 51, 0.85);
+	}
+	h1 {
+		font-family: 'CormorantUpright', serif;
+		font-style: italic;
+	}
+	.logo {
+		width: 70%;
+		padding-top: 5px;
+		float: left;
+	}
+	#logo1 {
+		color: rgba(79, 71, 69, 0.73);
+		text-decoration: none;
+	}
+	nav {
+		height: 100px;
+		background: rgb(255, 255, 255);
+		background: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 1) 27%, rgba(184, 197, 183, 1) 67%, rgba(184, 197, 183, 1) 99%);
+		background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 1) 27%, rgba(184, 197, 183, 1) 67%, rgba(184, 197, 183, 1) 99%);
+		background: linear-gradient(135deg, rgba(255, 255, 255, 1) 27%, rgba(184, 197, 183, 1) 67%, rgba(184, 197, 183, 1) 99%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#b8c5b7', GradientType=1);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#b8c5b7', GradientType=1);
+	}
+	li {
+		list-style-type: none;
+	}
+	#nav_bar a {
+		color: #333333;
+	}
+	.dropdown-toggle {
+		background-color: white;
+	}
+	.img {
+		background-image: url(../img/fond.jpg);
+		background-position: center;
+		height: 500px;
+		-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+		background-size: cover;
+	}
+	.articles {
+		background-position: center;
+		height: 500px;
+	}
+	.img section {
+		padding: 100px 30%;
+	}
+	#news {
+		text-align: center;
+		font-size: 1.5em;
+		padding: 10px;
+		background-color: #ECE4DE;
+	}
+	.post {
+		width: 80%;
+		margin: 50px auto 20px auto;
+		padding: 20px 0 0px 0;
+		border: solid silver;
+		border-radius: 6px;
+		background-color: rgba(178, 192, 176, 0.36);
+	}
+	main .centrale {
+		padding: 40px 0 40px 0;
+		text-align: center;
+		border: solid 2px silver;
+		border-radius: 5px;
+		background-color: rgba(255, 255, 255, 0.2);
+	}
+	main .newslaters {
+		margin-top: 10px;
+		padding: 40px 10px 40px 10px;
+		border: solid 2px silver;
+		border-radius: 5px;
+		background-color: rgba(178, 192, 176, 0.36);
+	}
+	#lien_rdv {
+		padding: 5px;
+		background-color: rgba(255, 255, 255, 0.4);
+		border-radius: 5px;
+		color: black;
+		text-decoration: none;
+	}
+	.mail {
+		text-decoration: none;
+	}
+	.trois {
+		width: 60%;
+		margin: auto;
+		text-align: center;
+		padding-top: 10px;
+		background-color: rgba(178, 192, 176, 0.36);
+		margin-bottom: 25px;
+	}
+	.mail {
+		font-size: 1em;
+		color: black;
+		border: solid 2px silver;
+		border-radius: 5px;
+		padding: 5px;
+		background-color: rgba(255, 255, 255, 0.2);
+	}
+	#tel {
+		width: 90%;
+		margin: auto;
+		border: solid 2px silver;
+		background-color: rgba(255, 255, 255, 0.2);
+		margin-bottom: 40px;
+		margin-top: 20px;
+	}
+	#case1 {
+		border-bottom: solid 3px silver;
+	}
+	#case2 {
+		border-bottom: solid 3px silver;
+		padding-bottom: 20px;
+	}
+	#case3 {
+		text-align: center;
+		border-bottom: solid 3px silver;
+		padding-bottom: 20px;
+	}
+	h4 {
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 13px;
+	}
+	/*-------------------------pages lien (non index)-------------*/
+	.log1 {
+		text-align: right;
+		padding: 5px;
+		color: silver;
+		text-decoration: none;
+		display: inline-block;
+	}
+	.formlog {
+		text-align: center;
+		margin-top: 150px;
+	}
+
+	.mentions {
+		padding-top: 90px;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.mentions img {
+		padding: 30px;
+		width: 140px;
+	}
+
+	.bloc-honoraire {
+		padding-top: 80px;
+		padding-bottom: 50px;
+	}
+	/*------------------------- page honoraire -----------------------*/
+	.honoraires {
+		padding-top: 15px;
+		font-size: 1.1rem;
+		min-width: 100%;
+		border: solid silver 1px;
+	}
+	.bloc-honoraire h3 {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	th {
+		text-align: center;
+		padding: 20px;
+	}
+	.honoraires td {
+		padding: 20px;
+		border-top: solid 1px silver;
+		background: rgb(255, 255, 255);
+		background: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 1) 27%, rgba(184, 197, 183, 1) 67%, rgba(184, 197, 183, 1) 99%);
+		background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.7) 27%, rgba(184, 197, 183, 0.7) 67%, rgba(184, 197, 183, 0.7) 99%);
+		background: linear-gradient(135deg, rgba(255, 255, 255, 1) 25%, rgba(184, 197, 183, 0.7) 69%, rgba(184, 197, 183, 0.7) 99%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#B2C0B0', GradientType=1);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#B2C0B0', GradientType=1);
+	}
+	.paiement {
+		padding: 20px;
+	}
+	/*-------------------------page situer le cabinet-------------*/
+	.cabinet {
+		color: rgba(51, 51, 51, 0.85);
+	}
+	.cabinet h1 {
+		text-align: center;
+	}
+	.carousel {
+		width: 90%;
+		text-align: center;
+		margin-left: 5%;
+	}
+	.adresse {
+		text-align: center;
+	}
+	.cabinet .horaire {
+		padding-top: 20px;
+		text-align: center;
+	}
+	.pratique {
+		padding-left: 40px;
+		line-height: 2;
+		padding-bottom: 20px;
+	}
+	/*------------------------footer--------------------------*/
+	#footer {
+		display: inline-block;
+		padding-left: 5%;
+	}
+/*---------------------------------------------------------*/
+/*                        desktop                          */
+/*---------------------------------------------------------*/
+@media  screen and (min-width: 750px) {
+	*{
+		font-size: 1em;
+	}
+	.trait{
+		background-color:#ECE4DE;
+		line-height: 0.5;
+		display: inline;
+	}
+	#logo1 {
+		padding-left: 5%;
+		color: rgba(79, 71, 69, 0.70);
+		width:500px;
+		padding-top: 15px;
+		text-decoration: none;
+	}
+	.headernav{
+		background: rgb(255,255,255);
+		background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 27%, rgba(184,197,183,1) 67%, rgba(184,197,183,1) 99%);
+		background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0.7) 27%,rgba(184,197,183,0.7) 67%,rgba(184,197,183,0.7) 99%);
+		background: linear-gradient(135deg, rgba(255,255,255,1) 25%,rgba(184,197,183,0.7) 69%,rgba(184,197,183,0.7) 99%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#B2C0B0',GradientType=1 );
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#B2C0B0',GradientType=1 );
+		display: flex;
+		justify-content: center;
+	}
+	nav {
+		height: 130px;
+	}
+	li {
+		list-style-type: none;
+	}
+	#nav_bar {
+		width: 80%;
+		color: white;
+		display: flex;
+		justify-content: flex-end;
+		font-size: 1.2em;
+	}
+	#nav_bar a {
+	color: rgba(51, 51, 51, 0.85);
+	}
+	.dropdown-toggle{
+		background-color: white;
+	}
+	/*///////////////////////////////////////////////////////////*/
+	.img {
+	  background-image: url(../img/fond.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+	  width: 100%;
+	}
+	.img section{
+		padding-left: 35%;
+		padding-right: 35%;
+		padding-top:100px;
+		padding-bottom: 100px;
+
+	}
+	main .centrale {
+		padding: 40px 0 40px 0;
+		text-align: center;
+		border: solid 2px silver;
+		background-color:rgba(255, 255, 255, 0.2);
+
+	}
+	main .newslaters {
+		margin-top: 10px;
+		padding: 40px 0 40px 0;
+		border: solid 2px silver;
+		background-color: rgba(178, 192, 176, 0.36);
+	}
+	#lien_rdv{
+		padding: 5px;
+		background-color:rgba(255, 255, 255, 0.4);
+		border-radius: 5px;
+	}
+	.mail {
+		font-size: 1em;
+		color: black;
+		border: solid 2px silver;
+		border-radius: 5px;
+		padding: 5px;
+		background-color:rgba(255, 255, 255, 0.2);
+	}
+	#tel{
+		margin-bottom: 40px;
+		margin-top: 20px;
+	}
+	#article {
+		min-width: 80%;
+	}
+	/*------------------page le cabinet -------------------------*/
+		.carousel{
+			width: 60%;
+			text-align: center;
+			margin-left: 20%;
+		}
+
+			/*footer */
+	/*///////////////////////////////////////////////////////////*/
+
+	#case1 {
+		width: 35%;
+	}
+	#case2{
+		width: 35%;
+	}
+	#case3{
+		text-align: center;
+		width: 35%;
+	}
+	.trois {
+		display: flex;
+		justify-content: space-around;
+	}
+	.trois h4 {
+		text-align: center;
+	}
+}
+
+
+

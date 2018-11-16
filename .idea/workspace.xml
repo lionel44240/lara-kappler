@@ -2,50 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cecb426-fc75-4306-a499-34e64ded0e04" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cabinet1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cabinet2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cabinet3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cabinet4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/copyright.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/fond.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bddconnect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cabinet.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consultation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deconnect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/header.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/honoraires.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/l'osteopathie.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mentionslegales.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/praticienne.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quand.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qui.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script-file.phtml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bricks-459299_1920.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clr12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo-lara-osteopathe-do.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo-lara-osteopathe-dom-od.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/skeleton-1654869_1920.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/woman-1562560_1920.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newslater;phtml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lara.js" afterPath="$PROJECT_DIR$/js/lara.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/normalize.css" afterPath="$PROJECT_DIR$/css/normalize.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delete.php" afterPath="$PROJECT_DIR$/delete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.phtml" afterPath="$PROJECT_DIR$/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lara.js" afterPath="$PROJECT_DIR$/lara.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laraPost.php" afterPath="$PROJECT_DIR$/laraPost.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laraPost.phtml" afterPath="$PROJECT_DIR$/laraPost.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log1.php" afterPath="$PROJECT_DIR$/log1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log1.phtml" afterPath="$PROJECT_DIR$/log1.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.php" afterPath="$PROJECT_DIR$/news.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.phtml" afterPath="$PROJECT_DIR$/news.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newslater.php" afterPath="$PROJECT_DIR$/newslater.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newslater.phtml" afterPath="$PROJECT_DIR$/newslater.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post.php" afterPath="$PROJECT_DIR$/post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post.phtml" afterPath="$PROJECT_DIR$/post.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.phtml" afterPath="$PROJECT_DIR$/header.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script-file.phtml" afterPath="$PROJECT_DIR$/script-file.phtml" />
     </list>
     <ignored path="lara kappeler2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,7 +37,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="lara.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lara.js">
+        <entry file="file://$PROJECT_DIR$/js/lara.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
@@ -94,8 +56,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/style.css">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="586">
               <caret line="220" column="39" selection-start-line="220" selection-start-column="39" selection-end-line="220" selection-end-column="39" />
@@ -104,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
+            <state relative-caret-position="1400">
               <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
               <folding />
             </state>
@@ -125,7 +87,7 @@
         </entry>
       </file>
       <file leaf-file-name="normalize.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/normalize.css">
+        <entry file="file://$PROJECT_DIR$/css/normalize.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -182,6 +144,7 @@
         <option value="$PROJECT_DIR$/index.phtml" />
         <option value="$PROJECT_DIR$/cabinet.phtml" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -258,6 +221,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\lara-kappler\js" />
+      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\lara-kappler\css" />
       <recent name="C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\lara-kappler\html" />
       <recent name="C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\lara-kappler\src" />
       <recent name="C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\lara-kappler" />
@@ -347,12 +312,20 @@
       <workItem from="1541612124778" duration="626000" />
       <workItem from="1542096160084" duration="4505000" />
       <workItem from="1542271540077" duration="32000" />
-      <workItem from="1542370947072" duration="329000" />
+      <workItem from="1542370947072" duration="578000" />
     </task>
+    <task id="LOCAL-00001" summary="WIP">
+      <created>1542371303197</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542371303197</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83905000" />
+    <option name="totallyTimeSpent" value="84154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="0" />
@@ -360,6 +333,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22786178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34356552" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -388,6 +362,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="WIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="5" />
@@ -409,7 +387,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -486,7 +464,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -694,7 +672,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/normalize.css">
+    <entry file="file://$PROJECT_DIR$/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -702,7 +680,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lara.js">
+    <entry file="file://$PROJECT_DIR$/js/lara.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
@@ -718,18 +696,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.phtml">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        <state relative-caret-position="586">
+          <caret line="220" column="39" selection-start-line="220" selection-start-column="39" selection-end-line="220" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="220" column="39" selection-start-line="220" selection-start-column="39" selection-end-line="220" selection-end-column="39" />
+        <state relative-caret-position="1400">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
           <folding />
         </state>
       </provider>
