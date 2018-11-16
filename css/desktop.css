@@ -1,0 +1,143 @@
+@media screen and (min-width: 750px) {
+    * {
+        font-size: 1em;
+    }
+
+    .trait {
+        background-color: #ECE4DE;
+        line-height: 0.5;
+        display: inline;
+    }
+
+    #logo1 {
+        padding-left: 5%;
+        color: rgba(79, 71, 69, 0.70);
+        width: 500px;
+        padding-top: 15px;
+        text-decoration: none;
+    }
+
+    .headernav {
+        background: rgb(255, 255, 255);
+        background: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 1) 27%, rgba(184, 197, 183, 1) 67%, rgba(184, 197, 183, 1) 99%);
+        background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.7) 27%, rgba(184, 197, 183, 0.7) 67%, rgba(184, 197, 183, 0.7) 99%);
+        background: linear-gradient(135deg, rgba(255, 255, 255, 1) 25%, rgba(184, 197, 183, 0.7) 69%, rgba(184, 197, 183, 0.7) 99%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#B2C0B0', GradientType=1);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#B2C0B0', GradientType=1);
+        display: flex;
+        justify-content: center;
+    }
+
+    nav {
+        height: 130px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    #nav_bar {
+        width: 80%;
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 1.2em;
+    }
+
+    #nav_bar a {
+        color: rgba(51, 51, 51, 0.85);
+    }
+
+    .dropdown-toggle {
+        background-color: white;
+    }
+
+    /*///////////////////////////////////////////////////////////*/
+    .img {
+        background-image: url(../img/fond.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .img section {
+        padding-left: 35%;
+        padding-right: 35%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+    }
+
+    main .centrale {
+        padding: 40px 0 40px 0;
+        text-align: center;
+        border: solid 2px silver;
+        background-color: rgba(255, 255, 255, 0.2);
+
+    }
+
+    main .newslaters {
+        margin-top: 10px;
+        padding: 40px 0 40px 0;
+        border: solid 2px silver;
+        background-color: rgba(178, 192, 176, 0.36);
+    }
+
+    #lien_rdv {
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.4);
+        border-radius: 5px;
+    }
+
+    .mail {
+        font-size: 1em;
+        color: black;
+        border: solid 2px silver;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    #tel {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    #article {
+        min-width: 80%;
+    }
+
+    /*------------------page le cabinet -------------------------*/
+    .carousel {
+        width: 60%;
+        text-align: center;
+        margin-left: 20%;
+    }
+
+    /*footer */
+    /*///////////////////////////////////////////////////////////*/
+    #case1 {
+        width: 35%;
+    }
+
+    #case2 {
+        width: 35%;
+    }
+
+    #case3 {
+        text-align: center;
+        width: 35%;
+    }
+
+    .trois {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .trois h4 {
+        text-align: center;
+    }
+}
+
+
+
