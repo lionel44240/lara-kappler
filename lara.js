@@ -1,3 +1,3 @@
 "use strict"
 
-var rdv = get.querySelector('#lien_rdv');
+var pencil = document.querySelector(".button1");

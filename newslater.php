@@ -1,8 +1,6 @@
 <?php
 try {
-    $dbh = new PDO("mysql:host=localhost;dbname=lara","root","");
-
-    $dbh->exec("SET NAMES UTF8"); 
+    include "bddconnect.php";
 
     //recuperation des articles
     $query = $dbh->prepare(

@@ -2,9 +2,7 @@
 session_start();
 // Connexion
     try {
-        $dbh = new PDO("mysql:host=localhost;dbname=lara","root","");
-
-        $dbh->exec("SET NAMES UTF8"); 
+        include "bddconnect.php";
 
     //recuperation des articles
         $query = $dbh->prepare(
@@ -18,8 +16,8 @@ session_start();
      $dbh = null; // ferme la connection à la base de donnée
     }
 
- catch (PDOException $e) {
-    print " Erreur de connection! Message: " . $e->getMessage() . "<br/>";
- }
-header('Location: laraPost.php');
-exit();
+    catch (PDOException $e) {
+        print " Erreur de connection! Message: " . $e->getMessage() . "<br/>";
+    }
+    header('Location: laraPost.php');
+    exit();

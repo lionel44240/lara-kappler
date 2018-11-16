@@ -1,22 +1,15 @@
 <?php 
 session_start();
-
+/*verification que le formulaire n'est pas null*/
 if ((isset($_POST["titre"])) && (isset($_POST["text"]))) {
+    $titre = $_POST['titre'];
+    $text = $_POST['text'];
+
 // Connexion à la base de donnée
-$titre = "";
-if (isset($_POST['titre'])) {
-	$titre = $_POST['titre'];
-}
-$text = "";
-if (isset($_POST['text'])) {
-	$text = $_POST['text'];
-}
     try {
-        $dbh = new PDO("mysql:host=localhost;dbname=lara","root","");
+        include "bddconnect.php";
 
-        $dbh->exec("SET NAMES UTF8"); 
-
-    //insertion de l'article dans la bdd
+        //insertion de l'article dans la bdd
         $query = $dbh->prepare(
             'INSERT INTO `post`(`titre`, `content`)
             VALUES (?, ?)
@@ -27,10 +20,10 @@ if (isset($_POST['text'])) {
         $post = $query->fetch(PDO::FETCH_ASSOC);
     
      $dbh = null; // ferme la connection à la base de donnée
- } 
- catch (PDOException $e) {
-    print "Erreur de connection! Message: " . $e->getMessage() . "<br/>";
- }
+    }
+    catch (PDOException $e) {
+        print "Erreur de connection! Message: " . $e->getMessage() . "<br/>";
+    }
 }
 include "news.phtml";
-header("laraPost.php");
+header("Location: laraPost.php");

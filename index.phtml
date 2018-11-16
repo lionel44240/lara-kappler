@@ -1,104 +1,62 @@
-<?php 	session_start();
-?>
 <!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="normalize.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=CormorantUpright" rel="stylesheet">
-	<meta charset="utf-8">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-	</script>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous">
-	</script>
-	<script type="text/javascript" src='lara.js'>
-	</script>
-	<title> lara kappeler osteopathie vendee le Bernard </title>
-</head>
-<body>
-	<header>
-		<?php if (isset($_SESSION['pseudo'])) {
-			echo "bonjour ". $_SESSION['pseudo'];
-		} ?>
-		<nav class="headernav">
-			<a href="index.phtml"><h2>Lara Kappeler Ostéopathe D.O</h2></a>
-<!-- 			<a href="index.html"><img src="img/logo-lara-osteopathe-dom-od.jpg" class="logo" alt="logo"></a>
--->			<ul class="nav nav-pills " id="nav_bar">
-	<li class="nav-item">
-		<a class="nav-link " href="index.phtml">Accueil</a>
-	</li>
-	<li class="nav-item ">
-		<a class="nav-link bg-transparent " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">L'ostéopathie </a>
-		<div class="dropdown-menu">
-			<a class="dropdown-item" href="#">Qu'est ce que l'ostéopathie ?</a>
-			<a class="dropdown-item" href="#">Pour qui ?</a>
-			<a class="dropdown-item" href="#">Quand ?</a>
+<?php 	
+	session_start();
+?>
+<html lang="fr">
+	<?php
+		include "header.phtml";
+	?>
+	<main>
+		<div class="img">
+			<section >
+				<article class="centrale">
+					<h3>Lara Kappeler</h3>
+					<p>Ostéopathe</p>
+					<a href="https://www.pagesjaunes.fr/pros/55639220" id="lien_rdv">Prendre rendez-vous</a>
+				</article>
+			</section>
 		</div>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" href="#">Présentation</a>
-	</li>
-	<li class="nav-item ">
-		<a class="nav-link bg-transparent " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Infos pratiques</a>
-		<div class="dropdown-menu">
-			<a class="dropdown-item" href="#">La Consultation</a>
-			<a class="dropdown-item" href="#">Les Honoraires</a>
-			<a class="dropdown-item" href="#">Le cabinet</a>
-			<a class="dropdown-item" href="newslater.php">nouveauté</a>
-		</div>
-	</li>
-</ul>
-</nav>
-</header>
-<main>
-	<div class="img">
-		<section >
-			<article class="centrale">
-				<h3>Lara Kappeler</h3>
-				<p>Ostéopathe</p>
-				<a href="rdv" id="lien_rdv">Prendre rendez-vous</a>
-			</article>
+	</main>
+	<div class="trois">
+		<section id="case1">
+			<h4>Cabinet d'ostéopathie</h4>
+			<p>2 bis Rue des Frênes</p>
+			<p>85560 Le Bernard</p>
+		</section>
+		<section id="case2">
+			<h4><a "tel:+33251900906">02 51 90 09 06</a></h4>
+			<a href="mailto:lk.osteopathe@gmail.com" class="mail">lk.osteopathe@gmail.com</a>
+		</section>
+		<section id="case3">
+			<h4>Horaires :</h4>
+			<ul>
+				<li>lundi	9h – 19h</li>
+				<li>mardi	9h – 19h</li>
+				<li>mercredi   9h – 19h</li>
+				<li>jeudi	9h – 19h</li>
+				<li>vendredi   9h – 19h</li>
+				<li>samedi	9h – 13h</li>
+			</ul>
 		</section>
 	</div>
-</main>
-<div class="trois">
-	<section id="case1">
-		<h4>Cabinet d'ostéopathie</h4>
-		<p>2 bis Rue des Frênes</p>
-		<p>85560 Le Bernard</p>
-	</section>
-	<section id="case2">
-		<h4><a "tel:+33251900906">02 51 90 09 06</a></h4>
-		<a href="mailto:lk.osteopathe@gmail.com" class="mail">lk.osteopathe@gmail.com</a>
-	</section>
-	<section id="case3">
-		<h4>Horaires :</h4>
-		<ul>
-			<li>lundi	9h – 19h</li>
-			<li>mardi	9h – 19h</li>
-			<li>mercredi   9h – 19h</li>
-			<li>jeudi	9h – 19h</li>
-			<li>vendredi   9h – 19h</li>
-			<li>samedi	9h – 13h</li>
-		</ul>
-	</section>
-</div>
-<footer>
-	<section class="footer">
-		<a href="log1.php" class="log1"><button>admin</button></a>
-		<?php if(isset($_SESSION) && isset($_SESSION['pseudo']) ) : ?>
-		<form method="post" action="log1.php?action=deconnexion" name="deconnexion">
-			<button>deconnexion</button>
-		</form>
-			<a href="laraPost.php"><button>page de controle</button></a>
-		
-	<?php endif; ?>
-</section>
-</footer>
-</body>
-
+		<section>
+			<?php if (isset($_SESSION['pseudo'])) {
+				echo  $_SESSION['pseudo']."bonjour ";
+			} ?>
+			<section class="footer">
+				<?php if(isset($_SESSION) && isset($_SESSION['pseudo']) ) : ?>
+					<form method="post" action="deconnect.php?action=deconnexion" name="deconnexion">
+						<button>deconnexion</button>
+					</form>
+					<a href="laraPost.php"><button>page de controle</button></a>
+				<?php endif; ?>
+			</section>
+		</section>
+	<small id="footer" >
+		<a href="mentionslegales.phtml"> mentions legales  <p>tout droit réserver</p></a>
+		<?php if (isset($_SESSION)) : ?>
+			<a href="log1.php" class="log1">admin</a>
+		<?php endif; ?>
+		<p>copyright C 2018</p>
+		</small>
 </html>
-
